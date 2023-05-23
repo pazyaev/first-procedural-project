@@ -1,0 +1,107 @@
+body {margin:0;}
+ul {
+    list-style: none;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    display: block;
+    width: 100%;
+    margin: 0 auto 30px;
+}
+.menu ul {
+    padding: 1em 0;
+    background: #896E69;
+}
+
+.menu a {
+    padding: 1em;
+    color: #f9f9ff;
+}
+
+.menu a:hover {
+    color: #896E69;
+    background: #f9f9ff;
+}
+
+.menu li {
+    display: inline;
+}
+
+.formAuth {
+    display: block;
+    border-style: solid;
+    border-width: 1px;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.formAuth h1 {
+    text-align: center;
+}
+
+.strings {
+    display: block;
+    margin-left: 30px;
+    margin-bottom: 50px;
+}
+
+.button {
+    display: block;
+    margin-top: 30px;
+    width: 70px;
+    height: 40px;
+    background-color: #b83b25;
+    color: #f9f9ff;
+}
+
+.validation_error {
+    text-align: center;
+    width: 120px;
+    color: #f9f9ff;
+    background-color: #da3939;
+}
+
+.wrapper {
+    margin-right: auto; /* 1 */
+    margin-left:  auto; /* 1 */
+  
+    max-width: 960px; /* 2 */
+  
+    padding-right: 10px; /* 3 */
+    padding-left:  10px; /* 3 */
+}
+
+.container {
+    display: block;
+    width: 1100px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.eachNews {
+    display: block;
+    float: left;
+    text-align: center;
+    margin-left: 50px;
+}
+
+.pagination {
+    display: block;
+    margin: 0 auto;
+    clear: both;
+    text-align: center;
+    width: 300px;
+}
+
+.img {
+    width: 250px;
+    height: 250px;
+}
+.img:hover {
+    transform: scale(1.5);
+}
